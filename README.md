@@ -2,7 +2,7 @@
 
 ## Prerequisite
 1. GO Programming Language: https://golang.org
-2. Docker destop: https://www.docker.com/products/docker-desktop/ หรือ https://rancherdesktop.io/
+2. Docker destop: https://www.docker.com/products/docker-desktop/ OR https://rancherdesktop.io/
 3. VS Code: https://code.visualstudio.com/
 4. Postman: https://www.postman.com/downloads/
 
