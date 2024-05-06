@@ -1,4 +1,6 @@
-# API CRUD Product data using Go, Echo, PostgreSQL, docker-compose and GORM 
+# API CRUD Product data using Go, Echo, PostgreSQL, docker-compose and GORM
+# Package by Feature
+
 
 ## Prerequisite
 1. GO Programming Language: https://golang.org
@@ -24,5 +26,5 @@
 15. Code project on github
 16. The end.
 
-Article: [api-crud-product-data-using-go]( https://medium.com/@jnuchit/api-crud-product-data-using-go-echo-postgresql-docker-compose-and-gorm-df82e5d9b89e)
+Article: [ทำไมใน GO ไม่ใช้ Repository Pattern เหมือน JAVA หรือ .NETนะ](https://medium.com/@jnuchit/%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B9%83%E0%B8%99-go-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9%89-repository-pattern-%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%99-java-%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD-net%E0%B8%99%E0%B8%B0-f1bb3e55d193)
 
