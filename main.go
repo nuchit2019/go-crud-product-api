@@ -3,10 +3,9 @@ package main
 import (
 	"net/http"
 
-	"product-res-api/config"
-	"product-res-api/controller"
-
 	"github.com/labstack/echo/v4"
+	"github.com/nuchit2019/product-res-api/config"
+	"github.com/nuchit2019/product-res-api/product"
 )
 
 func main() {
@@ -34,12 +33,12 @@ func main() {
 
 	// Group routes related to product endpoints
 	productRoute := e.Group("/product")
-	productRoute.GET("", controller.GetProducts)    // Get all products
-	productRoute.GET("/:id", controller.GetProduct) // Get a specific product by ID
+	productRoute.GET("", product.GetProducts)    // Get all products
+	productRoute.GET("/:id", product.GetProduct) // Get a specific product by ID
 
-	productRoute.POST("", controller.CreateProduct)    // Create a new product
-	productRoute.DELETE("/:id", controller.DeleteProduct) // Delete a product by ID
-	productRoute.PUT("/:id", controller.UpdateProduct)    // Update a product by ID
+	productRoute.POST("", product.CreateProduct)    // Create a new product
+	productRoute.DELETE("/:id", product.DeleteProduct) // Delete a product by ID
+	productRoute.PUT("/:id", product.UpdateProduct)    // Update a product by ID
 
 	// Start the server on port 8080
 	apiPort:=config.ApiPort();
