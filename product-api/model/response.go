@@ -1,4 +1,4 @@
-package product
+package model
 
 // Response represents a generic response format for API responses.
 type Response struct {
