@@ -5,7 +5,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/nuchit2019/product-res-api/config"
-	"github.com/nuchit2019/product-res-api/product"
+	"github.com/nuchit2019/product-res-api/pkg/product"
 )
 
 func main() {
@@ -30,6 +30,11 @@ func main() {
 
 	// Ping the database to check connectivity
 	dbGorm.Ping()
+
+	// Auto Migrate โมเดลของฐานข้อมูล	 
+	gorm.AutoMigrate(&product.Product{})
+	 
+
 
 	// Group routes related to product endpoints
 	productRoute := e.Group("/product")

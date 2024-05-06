@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 	"os"
-
+ 
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 
@@ -51,3 +51,5 @@ func CloseDB(db *gorm.DB) {
 	}
 	sqlDB.Close()
 }
+
+
