@@ -1,4 +1,6 @@
-# API CRUD Product data using Go, Echo, PostgreSQL, docker-compose and GORM 
+# API CRUD Product data using Go, Echo, PostgreSQL, docker-compose and GORM
+# Package by Feature
+
 
 ## Prerequisite
 1. GO Programming Language: https://golang.org
